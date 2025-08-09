@@ -2,6 +2,7 @@ import React from 'react';
 import { FaGithub, FaHeart, FaInstagram } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import FooterContact from './FooterContact';
+import FooterLinks from './FooterLinks';
 
 const Footer = () => {
   return (
@@ -13,6 +14,7 @@ const Footer = () => {
     >
 
         <FooterContact/>
+        <FooterLinks/>
       {/* Copyright */}
       <motion.div
         className="text-sm md:text-base"

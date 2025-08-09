@@ -76,7 +76,7 @@ const FooterContact = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          className="rounded-lg bg-gradient-to-r from-primary to-secondary text-white font-semibold px-6 py-3 shadow-md hover:opacity-90 transition-all duration-200"
+          className="rounded-lg bg-gradient-to-r from-orange-500 to-orange-600 text-white font-semibold px-6 py-3 shadow-md hover:bg-gradient-to-r hover:from-orange-400 hover:to-orange-500 transition duration-200 cursor-pointer"
         >
           Send Message
         </motion.button>
