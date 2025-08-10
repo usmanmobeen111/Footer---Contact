@@ -22,7 +22,7 @@ const FooterContact = () => {
       <form action="" className="flex flex-col gap-4">
         {/* Name Fields */}
         <motion.div
-          className="flex flex-col md:flex-row gap-4"
+          className="flex flex-col md:flex-row gap-4 w-full md:max-w-[500px] lg:max-w-[45vw]"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
@@ -32,14 +32,14 @@ const FooterContact = () => {
             placeholder="First Name"
             custom={0}
             variants={inputVariants}
-            className="flex-1 rounded-lg bg-gray-100 placeholder:text-gray-500 px-4 py-3 outline-none focus:ring-2 focus:ring-primary/60 transition duration-200"
+            className="min-w-0 flex-1 rounded-lg bg-gray-100 placeholder:text-gray-500 px-4 py-3 outline-none focus:ring-2 focus:ring-primary/60 transition duration-200"
           />
           <motion.input
             type="text"
             placeholder="Last Name"
             custom={1}
             variants={inputVariants}
-            className="flex-1 rounded-lg bg-gray-100 placeholder:text-gray-500 px-4 py-3 outline-none focus:ring-2 focus:ring-primary/60 transition duration-200"
+            className="min-w-0 flex-1 rounded-lg bg-gray-100 placeholder:text-gray-500 px-4 py-3 outline-none focus:ring-2 focus:ring-primary/60 transition duration-200"
           />
         </motion.div>
 

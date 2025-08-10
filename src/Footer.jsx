@@ -13,8 +13,12 @@ const Footer = () => {
       transition={{ duration: 0.8, ease: 'easeOut' }}
     >
 
-        <FooterContact/>
+      <div className="md:flex flex-col md:flex-row items-center justify-center">
+          <FooterContact/>
         <FooterLinks/>
+      </div>
+
+      <hr className='border-t border-gray-700 my-4'/>
       {/* Copyright */}
       <motion.div
         className="text-sm md:text-base"
@@ -22,7 +26,7 @@ const Footer = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.3 }}
       >
-        &copy; {new Date().getFullYear()} <span className="font-semibold">Pricing Section</span> | All Rights Reserved
+        &copy; {new Date().getFullYear()} <span className="font-semibold">Footer and Contact</span> | All Rights Reserved
       </motion.div>
 
       {/* Made with love */}
